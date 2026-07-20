@@ -1,4 +1,4 @@
-# Directions — ChronoVector-Sentinel
+# Directions — page-change-monitor
 
 ## What this is
 Change-detection sentinel agent. Snapshots page text, compares against a prior snapshot, and uses an LLM to judge if the delta is material.

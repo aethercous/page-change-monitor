@@ -5,7 +5,7 @@ import httpx
 from bs4 import BeautifulSoup
 
 def capture(url: str) -> dict:
-    with httpx.Client(follow_redirects=True, timeout=30.0, headers={"User-Agent": "ChronoVector-Sentinel/1.0"}) as c:
+    with httpx.Client(follow_redirects=True, timeout=30.0, headers={"User-Agent": "page-change-monitor/1.0"}) as c:
         r = c.get(url)
         r.raise_for_status()
     soup = BeautifulSoup(r.text, "lxml")

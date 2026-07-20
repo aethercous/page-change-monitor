@@ -1,4 +1,4 @@
-# ChronoVector-Sentinel
+# page-change-monitor
 
 AI page-change sentinel with materiality scoring.
 
